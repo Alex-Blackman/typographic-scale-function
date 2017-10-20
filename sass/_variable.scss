@@ -8,4 +8,8 @@ f~n = f0 * (2 ^ n/5)
 
 $base-font-size: 12px;
 $ratio: 2;
-$scale: 5;
+
+$pentatonic: 1/5;
+$heptatonic: 1/7;
+
+$scale: $pentatonic;

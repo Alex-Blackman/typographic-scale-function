@@ -1,3 +1,5 @@
+// Function
+
 /*
 
 Pentatonic Scale
@@ -7,6 +9,6 @@ f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 
-@function pentatonic-scale($some-number, $base-font-size){
-  @return $base-font-size * pow(pow(2, 0.2), $some-number);
+@function pentatonic-scale($note, $base-font-size){
+  @return $base-font-size * pow(pow($ratio, $scale), $note);
 }
