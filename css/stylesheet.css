@@ -10,6 +10,15 @@ f~n = f0 * (2 ^ n/5)
 Pentatonic Scale
 
 f~n = f0 * (2 ^ n/5)
+f~n = f0 * (2 ^ 1/5) ^ n
+
+*/
+/*
+
+Pentatonic Scale
+
+f~n = f0 * (2 ^ n/5)
+f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 /*
@@ -19,40 +28,64 @@ Pentatonic Scale
 f~n = f0 * (2 ^ n/5)
 
 */
-/*
+.font-size-9 {
+  font-size: 9.0943px; }
 
-Pentatonic Scale
+.font-size-10 {
+  font-size: 10.44661px; }
 
-f~n = f0 * (2 ^ n/5)
-
-*/
-/*
-
-Pentatonic Scale
-
-f~n = f0 * (2 ^ n/5)
-
-*/
 .font-size-12 {
-  font-size: 2.4px;
-}
+  font-size: 12px; }
 
 .font-size-14 {
-  font-size: 4.8px;
-}
+  font-size: 13.78438px; }
 
 .font-size-16 {
-  font-size: 9.6px;
-}
+  font-size: 15.83409px; }
 
 .font-size-18 {
-  font-size: 19.2px;
-}
+  font-size: 18.1886px; }
 
 .font-size-21 {
-  font-size: 38.4px;
-}
+  font-size: 20.89321px; }
 
 .font-size-24 {
-  font-size: 76.8px;
-}
+  font-size: 24px; }
+
+.font-size-28 {
+  font-size: 27.56876px; }
+
+.font-size-32 {
+  font-size: 31.66819px; }
+
+.font-size-36 {
+  font-size: 36.3772px; }
+
+.font-size-42 {
+  font-size: 41.78643px; }
+
+.font-size-48 {
+  font-size: 48px; }
+
+.font-size-55 {
+  font-size: 55.13752px; }
+
+.font-size-63 {
+  font-size: 63.33638px; }
+
+.font-size-73 {
+  font-size: 72.75439px; }
+
+.font-size-84 {
+  font-size: 83.57285px; }
+
+.font-size-96 {
+  font-size: 96px; }
+
+.font-size-110 {
+  font-size: 110.27504px; }
+
+.font-size-127 {
+  font-size: 126.67276px; }
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -3,11 +3,12 @@
 Pentatonic Scale
 
 f~n = f0 * (2 ^ n/5)
+f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 
 $base-font-size: 12px;
 
 @mixin pentatonic-scale($some-number) {
-	font-size: $base-font-size * (pow(2,$some-number) / 5);
+	font-size: $base-font-size * pow(pow(2, 0.2), $some-number);
 }
