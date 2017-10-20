@@ -9,6 +9,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<style type="text/css">
+		td {
+			vertical-align: baseline;
+		}
+
+		.u-text-right {
+			text-align: right;
+		}
+	</style>
 </head>
 
 <body>
@@ -37,7 +46,119 @@
 			<span style="font-size: 110px;">a</span>
 			<span style="font-size: 127px;">a</span>
 		</div>
-		<h2>Using SASS Mixin</h2>
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Note</th>
+						<th>Font Size</th>
+						<th class="u-text-right">Example</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>-2</td>
+						<td>9px</td>
+						<td class="u-text-right"><span style="font-size: 9px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>-1</td>
+						<td>10px</td>
+						<td class="u-text-right"><span style="font-size: 10px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>0</td>
+						<td>12px</td>
+						<td class="u-text-right"><span style="font-size: 12px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>14px</td>
+						<td class="u-text-right"><span style="font-size: 14px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>16px</td>
+						<td class="u-text-right"><span style="font-size: 16px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>18px</td>
+						<td class="u-text-right"><span style="font-size: 18px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>21px</td>
+						<td class="u-text-right"><span style="font-size: 21px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>24px</td>
+						<td class="u-text-right"><span style="font-size: 24px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>28px</td>
+						<td class="u-text-right"><span style="font-size: 28px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>32px</td>
+						<td class="u-text-right"><span style="font-size: 32px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>36px</td>
+						<td class="u-text-right"><span style="font-size: 36px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>42px</td>
+						<td class="u-text-right"><span style="font-size: 42px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>48px</td>
+						<td class="u-text-right"><span style="font-size: 48px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>55px</td>
+						<td class="u-text-right"><span style="font-size: 55px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>63px</td>
+						<td class="u-text-right"><span style="font-size: 63px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>73px</td>
+						<td class="u-text-right"><span style="font-size: 73px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>84px</td>
+						<td class="u-text-right"><span style="font-size: 84px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>96px</td>
+						<td class="u-text-right"><span style="font-size: 96px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>110px</td>
+						<td class="u-text-right"><span style="font-size: 110px;">Ag</span></td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>127px</td>
+						<td class="u-text-right"><span style="font-size: 127px;">Ag</span></td>
+					</tr>
+				</tbody>
+			</table>
+		<h2>SASS Mixin</h2>
 		<div>
 			<span class="js-font-size  font-size-9" id="js-test">a</span>
 			<span class="js-font-size  font-size-10">a</span>
@@ -82,7 +203,7 @@
 			<span class="js-font-size-result"></span>
 			<span class="js-font-size-result"></span>
 		</div>
-		<h2>Using SASS Function</h2>
+		<h2>SASS Function</h2>
 		<div>
 			<span class="font-size-minus-2">a</span>
 			<span class="font-size-minus-1">a</span>
@@ -92,7 +213,7 @@
 			<span class="font-size-plus-3">a</span>
 			<span class="font-size-plus-4">a</span>
 			<span class="font-size-plus-5">a</span>
-			<span class="font-size-plus-6"">a</span>
+			<span class="font-size-plus-6">a</span>
 			<span class="font-size-plus-7">a</span>
 			<span class="font-size-plus-8">a</span>
 			<span class="font-size-plus-9">a</span>
@@ -107,15 +228,33 @@
 		</div>
 	</section>
 
+
 <script>
+	// Get computed style of single element based on ID
+/*
 	function showFontSize() {
-		var elem = document.getElementById("js-test");
-		var theCSSprop = window.getComputedStyle(elem, null).getPropertyValue("font-size");
+		var elemId = document.getElementById("js-test");
+		var theCSSprop = window.getComputedStyle(elem,null).getPropertyValue("font-size");
 		document.getElementById("js-result-test").innerHTML = theCSSprop;
-		console.log(theCSSprop);
 	}
 
-	window.onload = showFontSize();
+	window.onload = showFontSize();*/
+</script>
+
+<script>
+	// Get computed style of multiple elements based on class
+	// Insert the same computed style into multiple elements based on class
+	// i needs to be the same in both or rather happens to be the same as the total number of elements are the same
+
+	var elem = document.getElementsByClassName("js-font-size");
+	var result = document.getElementsByClassName("js-font-size-result");
+
+	for (i = 0; i < elem.length; ++i) {
+		var theCSSprop = window.getComputedStyle(elem[i],null).getPropertyValue("font-size");
+		// console.log(theCSSprop);
+		result[i].innerHTML = theCSSprop;
+	}
+
 </script>
 
 </body>
