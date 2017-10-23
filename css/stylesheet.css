@@ -4,6 +4,8 @@ Pentatonic Scale
 
 f~n = f0 * (2 ^ n/5)
 
+$note = $base-font-size * ($ratio ^ ($note/$scale))
+
 */
 /*
 
@@ -22,123 +24,225 @@ f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 .font-size-9 {
-  font-size: 9.0943px; }
+  font-size: 9px; }
 
 .font-size-10 {
-  font-size: 10.44661px; }
+  font-size: 10px; }
 
 .font-size-12 {
-  font-size: 12px; }
+  font-size: 12px;
+  color: red; }
 
 .font-size-14 {
-  font-size: 13.78438px; }
+  font-size: 14px; }
 
 .font-size-16 {
-  font-size: 15.83409px; }
+  font-size: 16px; }
 
 .font-size-18 {
-  font-size: 18.1886px; }
+  font-size: 18px; }
 
 .font-size-21 {
-  font-size: 20.89321px; }
+  font-size: 21px; }
 
 .font-size-24 {
-  font-size: 24px; }
+  font-size: 24px;
+  color: red; }
 
 .font-size-28 {
-  font-size: 27.56876px; }
+  font-size: 28px; }
 
 .font-size-32 {
-  font-size: 31.66819px; }
+  font-size: 32px; }
 
 .font-size-36 {
-  font-size: 36.3772px; }
+  font-size: 36px; }
 
 .font-size-42 {
-  font-size: 41.78643px; }
+  font-size: 42px; }
 
 .font-size-48 {
-  font-size: 48px; }
+  font-size: 48px;
+  color: red; }
 
 .font-size-55 {
-  font-size: 55.13752px; }
+  font-size: 55px; }
 
 .font-size-63 {
-  font-size: 63.33638px; }
+  font-size: 63px; }
 
 .font-size-73 {
-  font-size: 72.75439px; }
+  font-size: 73px; }
 
 .font-size-84 {
-  font-size: 83.57285px; }
+  font-size: 84px; }
 
 .font-size-96 {
-  font-size: 96px; }
+  font-size: 96px;
+  color: red; }
 
 .font-size-110 {
-  font-size: 110.27504px; }
+  font-size: 110px; }
 
 .font-size-127 {
-  font-size: 126.67276px; }
+  font-size: 127px; }
+
+.font-size-146 {
+  font-size: 146px; }
+
+.font-size-167 {
+  font-size: 167px; }
+
+.font-size-192 {
+  font-size: 192px;
+  color: red; }
 
 .font-size-minus-2 {
-  font-size: 9.0943px; }
+  font-size: 9px; }
 
 .font-size-minus-1 {
-  font-size: 10.44661px; }
+  font-size: 10px; }
 
 .font-size-zero {
-  font-size: 12px; }
+  font-size: 12px;
+  color: red; }
 
 .font-size-plus-1 {
-  font-size: 13.78438px; }
+  font-size: 14px; }
 
 .font-size-plus-2 {
-  font-size: 15.83409px; }
+  font-size: 16px; }
 
 .font-size-plus-3 {
-  font-size: 18.1886px; }
+  font-size: 18px; }
 
 .font-size-plus-4 {
-  font-size: 20.89321px; }
+  font-size: 21px; }
 
 .font-size-plus-5 {
-  font-size: 24px; }
+  font-size: 24px;
+  color: red; }
 
 .font-size-plus-6 {
-  font-size: 27.56876px; }
+  font-size: 28px; }
 
 .font-size-plus-7 {
-  font-size: 31.66819px; }
+  font-size: 32px; }
 
 .font-size-plus-8 {
-  font-size: 36.3772px; }
+  font-size: 36px; }
 
 .font-size-plus-9 {
-  font-size: 41.78643px; }
+  font-size: 42px; }
 
 .font-size-plus-10 {
-  font-size: 48px; }
+  font-size: 48px;
+  color: red; }
 
 .font-size-plus-11 {
-  font-size: 55.13752px; }
+  font-size: 55px; }
 
 .font-size-plus-12 {
-  font-size: 63.33638px; }
+  font-size: 63px; }
 
 .font-size-plus-13 {
-  font-size: 72.75439px; }
+  font-size: 73px; }
 
 .font-size-plus-14 {
-  font-size: 83.57285px; }
+  font-size: 84px; }
 
 .font-size-plus-15 {
-  font-size: 96px; }
+  font-size: 96px;
+  color: red; }
 
 .font-size-plus-16 {
-  font-size: 110.27504px; }
+  font-size: 110px; }
 
 .font-size-plus-17 {
-  font-size: 126.67276px; }
+  font-size: 127px; }
+
+.font-size-plus-18 {
+  font-size: 146px; }
+
+.font-size-plus-19 {
+  font-size: 167px; }
+
+.font-size-plus-20 {
+  font-size: 192px;
+  color: red; }
+
+.note-2 {
+  font-size: 9px; }
+
+.note-1 {
+  font-size: 10px; }
+
+.note\+0 {
+  font-size: 12px;
+  color: red; }
+
+.note\+1 {
+  font-size: 14px; }
+
+.note\+2 {
+  font-size: 16px; }
+
+.note\+3 {
+  font-size: 18px; }
+
+.note\+4 {
+  font-size: 21px; }
+
+.note\+5 {
+  font-size: 24px;
+  color: red; }
+
+.note\+6 {
+  font-size: 28px; }
+
+.note\+7 {
+  font-size: 32px; }
+
+.note\+8 {
+  font-size: 36px; }
+
+.note\+9 {
+  font-size: 42px; }
+
+.note\+10 {
+  font-size: 48px;
+  color: red; }
+
+.note\+11 {
+  font-size: 55px; }
+
+.note\+12 {
+  font-size: 63px; }
+
+.note\+13 {
+  font-size: 73px; }
+
+.note\+14 {
+  font-size: 84px; }
+
+.note\+15 {
+  font-size: 96px;
+  color: red; }
+
+.note\+16 {
+  font-size: 110px; }
+
+.note\+17 {
+  font-size: 127px; }
+
+.note\+18 {
+  font-size: 146px; }
+
+.note\+19 {
+  font-size: 167px; }
+
+.note\+20 {
+  font-size: 192px;
+  color: red; }
 
 /*# sourceMappingURL=stylesheet.css.map */

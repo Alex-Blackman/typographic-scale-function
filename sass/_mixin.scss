@@ -1,3 +1,5 @@
+// Mixin
+
 /*
 
 Pentatonic Scale
@@ -7,8 +9,6 @@ f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 
-$base-font-size: 12px;
-
 @mixin pentatonic-scale($some-number) {
-	font-size: $base-font-size * pow(pow(2, 0.2), $some-number);
+	font-size: round($base-font-size * pow(pow(2, 0.2), $some-number));
 }

@@ -6,7 +6,9 @@
 @import "_mixin";
 @import "_function";
 @import "_power";
+@import "_shorthand";
 
 // Component
-@import "_font-size";
+@import "_font-size-mixin";
 @import "_font-size-function";
+@import "_scale";

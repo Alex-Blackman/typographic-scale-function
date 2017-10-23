@@ -1,0 +1,7 @@
+// Shorthand Function
+//
+// Convert readable function name into shorthand ms() for use in projects
+
+@function note($note){
+  @return pentatonic-scale($note, $base-font-size);
+}

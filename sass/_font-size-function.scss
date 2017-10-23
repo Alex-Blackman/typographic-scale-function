@@ -1,4 +1,4 @@
-// Mixin Font Size
+// Function Font Size
 
 .font-size-minus-2 {
   font-size: pentatonic-scale(-2, $base-font-size);
@@ -10,6 +10,7 @@
 
 .font-size-zero {
   font-size: pentatonic-scale(0, $base-font-size);
+  color: $red;
 }
 
 .font-size-plus-1 {
@@ -30,6 +31,7 @@
 
 .font-size-plus-5 {
   font-size: pentatonic-scale(5, $base-font-size);
+  color: $red;
 }
 
 .font-size-plus-6 {
@@ -50,6 +52,7 @@
 
 .font-size-plus-10 {
   font-size: pentatonic-scale(10, $base-font-size);
+  color: $red;
 }
 
 .font-size-plus-11 {
@@ -70,6 +73,7 @@
 
 .font-size-plus-15 {
   font-size: pentatonic-scale(15, $base-font-size);
+  color: $red;
 }
 
 .font-size-plus-16 {
@@ -78,4 +82,17 @@
 
 .font-size-plus-17 {
   font-size: pentatonic-scale(17, $base-font-size);
+}
+
+.font-size-plus-18 {
+  font-size: pentatonic-scale(18, $base-font-size);
+}
+
+.font-size-plus-19 {
+  font-size: pentatonic-scale(19, $base-font-size);
+}
+
+.font-size-plus-20 {
+  font-size: pentatonic-scale(20, $base-font-size);
+  color: $red;
 }

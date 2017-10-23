@@ -1,15 +1,28 @@
+// Variables
+
 /*
 
 Pentatonic Scale
 
 f~n = f0 * (2 ^ n/5)
 
+$note = $base-font-size * ($ratio ^ ($note/$scale))
+
 */
 
-$base-font-size: 12px;
-$ratio: 2;
+$octave: 2;
+$golden-ditonic: 1.618;
 
+$ditonic: 1/2;
+$tritonic: 1/3;
+$tetratonic: 1/4;
 $pentatonic: 1/5;
+$hexatonic: 1/6;
 $heptatonic: 1/7;
+$octatonic: 1/8;
 
-$scale: $pentatonic;
+$red: red;
+
+$base-font-size: 12px !default;
+$ratio: $octave !default;
+$scale: $pentatonic !default;
