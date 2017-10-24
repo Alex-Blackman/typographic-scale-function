@@ -171,6 +171,16 @@ f~n = f0 * (2 ^ 1/5) ^ n
   font-size: 192px;
   color: red; }
 
+.note-5 {
+  font-size: 6px;
+  color: red; }
+
+.note-4 {
+  font-size: 7px; }
+
+.note-3 {
+  font-size: 8px; }
+
 .note-2 {
   font-size: 9px; }
 
@@ -244,5 +254,40 @@ f~n = f0 * (2 ^ 1/5) ^ n
 .note\+20 {
   font-size: 192px;
   color: red; }
+
+.note\+21 {
+  font-size: 221px; }
+
+.note\+22 {
+  font-size: 253px; }
+
+.note\+23 {
+  font-size: 291px; }
+
+.note\+24 {
+  font-size: 334px; }
+
+.note\+25 {
+  font-size: 384px;
+  color: red; }
+
+td {
+  vertical-align: baseline; }
+
+.u-text-right {
+  text-align: right; }
+
+.js-font-size,
+.js-font-size-result {
+  margin-right: 5px; }
+
+.bg-light {
+  background-color: #fafafa;
+  padding: 12px; }
+
+.card {
+  text-align: center;
+  padding: 12px;
+  border: 6px solid white; }
 
 /*# sourceMappingURL=stylesheet.css.map */

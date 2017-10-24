@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"js-font",
+				"js-font-size-result"
+			],
+			[
 				"get",
 				"getPropertyValue"
 			],
@@ -146,10 +158,6 @@
 			[
 				"tranf",
 				"transform-origin"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"form",
@@ -506,50 +514,34 @@
 			[
 				"large",
 				"large-list"
-			],
-			[
-				"larg",
-				"large-list"
-			],
-			[
-				"link",
-				"link-grid__button"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Alex/Documents/Blue House Design/Blog/Blog posts.md",
-			"settings":
-			{
-				"buffer_size": 1033,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_font-size-function.scss",
-			"settings":
-			{
-				"buffer_size": 1516,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8290,
+				"buffer_size": 11305,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/_function.scss",
+			"file": "sass/_scale.scss",
 			"settings":
 			{
-				"buffer_size": 200,
+				"buffer_size": 933,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_shorthand.scss",
+			"settings":
+			{
+				"buffer_size": 176,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -558,7 +550,7 @@
 			"file": "sass/_mixin.scss",
 			"settings":
 			{
-				"buffer_size": 201,
+				"buffer_size": 194,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -576,7 +568,7 @@
 			"file": "sass/_variable.scss",
 			"settings":
 			{
-				"buffer_size": 140,
+				"buffer_size": 371,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -585,19 +577,18 @@
 			"file": "sass/stylesheet.scss",
 			"settings":
 			{
-				"buffer_size": 171,
+				"buffer_size": 217,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Alex/Documents/Blue House Design/Blog/Drafts/Domain registration, hosting and email.md",
+			"file": "sass/_font-size-mixin.scss",
 			"settings":
 			{
-				"buffer_size": 2224,
+				"buffer_size": 1283,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "# Domain registration, hosting and email"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -679,6 +670,9 @@
 	},
 	"file_history":
 	[
+		"/C/MAMP/htdocs/sass-type-scale/css/stylesheet.css",
+		"/C/Users/Alex/Documents/Blue House Design/Blog/Blog posts.md",
+		"/C/Users/Alex/Documents/Blue House Design/Blog/Drafts/Domain registration, hosting and email.md",
 		"/C/Users/Alex/Documents/Clients/People Who Foster/Website/Project/Server details.md",
 		"/C/Users/Alex/Documents/Clients/People Who Foster/Website/Project/To do list.md",
 		"/C/Users/Alex/Documents/Clients/People Who Foster/Website/Development/FosterCarerContact.aspx",
@@ -803,14 +797,11 @@
 		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Website/Performance.md",
 		"/C/MAMP/htdocs/wedding/wedding-breakfast.html",
 		"/C/MAMP/htdocs/wedding/index.html",
-		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Venue/Chair Covers.md",
-		"/C/Users/Alex/Documents/Clients/Adam Clegg/My Barrister Direct Redesign/Resources/Current site copy.md",
-		"/C/Users/Alex/Documents/Clients/Adam Clegg/My Barrister Direct Redesign/Research/Copy and structure.md",
-		"/C/Users/Alex/Documents/Clients/Adam Clegg/My Barrister Direct Redesign/Research/Direct access.md"
+		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Venue/Chair Covers.md"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -824,6 +815,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"note+",
+			"note-",
+			"noteplus",
+			"font-size-",
+			"font-size-plus",
+			" pentatonic-scale",
+			"js-font-size  ",
+			"a</span>",
 			"<td><span",
 			"style=\"text-align: right;\"",
 			"th",
@@ -943,15 +942,7 @@
 			"c-subhead",
 			"u-rule-top",
 			"subheader",
-			"c-subheader",
-			"max",
-			"flex__item",
-			"Orangery",
-			"Maidstone",
-			"c-subhead",
-			"c-subheading",
-			"c-heading",
-			"43"
+			"c-subheader"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -969,117 +960,32 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Alex/Documents/Blue House Design/Blog/Blog posts.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1033,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/_font-size-function.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1516,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								926,
-								926
-							],
-							[
-								1002,
-								1002
-							],
-							[
-								1078,
-								1078
-							],
-							[
-								1154,
-								1154
-							],
-							[
-								1230,
-								1230
-							],
-							[
-								1306,
-								1306
-							],
-							[
-								1382,
-								1382
-							],
-							[
-								1458,
-								1458
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1785.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8290,
+						"buffer_size": 11305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8197,
-								8197
+								8232,
+								8232
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 3,
-								"count": 202,
+								"changes": 763,
+								"count": 260,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -1088,31 +994,146 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7863.0,
+						"translation.y": 7290.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "sass/_function.scss",
+					"buffer": 1,
+					"file": "sass/_scale.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 200,
+						"buffer_size": 933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								211,
+								211
+							],
+							[
+								247,
+								247
+							],
+							[
+								283,
+								283
+							],
+							[
+								334,
+								334
+							],
+							[
+								370,
+								370
+							],
+							[
+								406,
+								406
+							],
+							[
+								442,
+								442
+							],
+							[
+								478,
+								478
+							],
+							[
+								531,
+								531
+							],
+							[
+								569,
+								569
+							],
+							[
+								607,
+								607
+							],
+							[
+								645,
+								645
+							],
+							[
+								683,
+								683
+							],
+							[
+								736,
+								736
+							],
+							[
+								774,
+								774
+							],
+							[
+								812,
+								812
+							],
+							[
+								850,
+								850
+							],
+							[
+								888,
+								888
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 1064,
+								"count": 63,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_shorthand.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 152,
+								"count": 19,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
@@ -1124,24 +1145,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "sass/_mixin.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 201,
+						"buffer_size": 194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								138
+								5,
+								5
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 26,
+								"count": 17,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
@@ -1149,11 +1179,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "sass/_power.scss",
 					"semi_transient": false,
 					"settings":
@@ -1171,6 +1201,15 @@
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 132,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
@@ -1178,28 +1217,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "sass/_variable.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								151,
+								151
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 294,
+								"count": 33,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
@@ -1207,28 +1255,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "sass/stylesheet.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 171,
+						"buffer_size": 217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								215,
+								215
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 43,
+								"count": 23,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
@@ -1236,36 +1293,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/C/Users/Alex/Documents/Blue House Design/Blog/Drafts/Domain registration, hosting and email.md",
+					"buffer": 7,
+					"file": "sass/_font-size-mixin.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2224,
+						"buffer_size": 1283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2224,
-								2224
+								1125,
+								1125
 							]
 						],
 						"settings":
 						{
-							"auto_name": "# Domain registration, hosting and email",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+							"WordCount":
+							{
+								"changes": 71,
+								"count": 109,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1665.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1273,7 +1339,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 39.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1314,7 +1380,7 @@
 	"project": "sass-type-scale.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":

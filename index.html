@@ -9,29 +9,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="stylesheet" href="css/stylesheet.css">
-	<style type="text/css">
-		td {
-			vertical-align: baseline;
-		}
-
-		.u-text-right {
-			text-align: right;
-		}
-		.js-font-size,
-		.js-font-size-result {
-			margin-right: 5px;
-		}
-		.bg-light {
-			background-color: #fafafa;
-		}
-	</style>
 </head>
 
 <body>
 	<section>
 		<h1>Pentatonic Type Scale</h1>
 		<h2>Variables</h2>
-		<p>Base font size: 12px</p>
+		<p>Base font size: <span class="note+0  js-font-size">Aa</span> <span class="js-font-size-result"></span></p>
 		<p>Ratio: 2</p>
 		<h2>Manual</h2>
 		<div class="bg-light">
@@ -171,6 +155,8 @@
 					</tr>
 				</tbody>
 			</table>
+
+		<!-- Not really needed
 		<h2>SASS Mixin</h2>
 		<div class="bg-light">
 			<span class="font-size-9">a</span>
@@ -197,8 +183,9 @@
 			<span class="font-size-167">a</span>
 			<span class="font-size-192">a</span>
 		</div>
+		-->
 
-		<h2>SASS Function</h2>
+		<!--<h2>SASS Function</h2>
 		<div class="bg-light">
 			<span class="font-size-minus-2  js-font-size">a</span>
 			<span class="font-size-minus-1  js-font-size">a</span>
@@ -249,8 +236,13 @@
 			<span class="js-font-size-result"></span>
 			<span class="js-font-size-result"></span>
 		</div>
+	-->
+
 		<h2>Generic Note Class and Functions</h2>
 		<div class="bg-light">
+			<span class="note-5  js-font-size">a</span>
+			<span class="note-4  js-font-size">a</span>
+			<span class="note-3  js-font-size">a</span>
 			<span class="note-2  js-font-size">a</span>
 			<span class="note-1  js-font-size">a</span>
 			<span class="note+0  js-font-size">a</span>
@@ -274,7 +266,14 @@
 			<span class="note+18  js-font-size">a</span>
 			<span class="note+19  js-font-size">a</span>
 			<span class="note+20  js-font-size">a</span>
+			<span class="note+21  js-font-size">a</span>
+			<span class="note+22  js-font-size">a</span>
+			<span class="note+23  js-font-size">a</span>
+			<span class="note+24  js-font-size">a</span>
+			<span class="note+25  js-font-size">a</span>
 		</div>
+
+		<!--
 		<div>
 			<span class="js-font-size-result"></span>
 			<span class="js-font-size-result"></span>
@@ -299,6 +298,165 @@
 			<span class="js-font-size-result"></span>
 			<span class="js-font-size-result"></span>
 			<span class="js-font-size-result"></span>
+		</div>-->
+
+		<h2>Scale Grid Presentation</h2>
+		<div class="bg-light" style="display: flex; flex-wrap: wrap;">
+			<div class="card">
+				<span class="note-5  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>-5</span>
+			</div>
+			<div class="card">
+				<span class="note-4  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>-4</span>
+			</div>
+			<div class="card">
+				<span class="note-3  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>-3</span>
+			</div>
+			<div class="card">
+				<span class="note-2  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>-2</span>
+			</div>
+			<div class="card">
+				<span class="note-1  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>-1</span>
+			</div>
+			<div class="card">
+				<span class="note+0  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>0</span>
+			</div>
+			<div class="card">
+				<span class="note+1  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>1</span>
+			</div>
+			<div class="card">
+				<span class="note+2  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>2</span>
+			</div>
+			<div class="card">
+				<span class="note+3  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>3</span>
+			</div>
+			<div class="card">
+				<span class="note+4  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>4</span>
+			</div>
+			<div class="card">
+				<span class="note+5  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>5</span>
+			</div>
+			<div class="card">
+				<span class="note+6  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>6</span>
+			</div>
+			<div class="card">
+				<span class="note+7  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>7</span>
+			</div>
+			<div class="card">
+				<span class="note+8  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>8</span>
+			</div>
+			<div class="card">
+				<span class="note+9  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>9</span>
+			</div>
+			<div class="card">
+				<span class="note+10  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>10</span>
+			</div>
+			<div class="card">
+				<span class="note+11  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>11</span>
+			</div>
+			<div class="card">
+				<span class="note+12  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>12</span>
+			</div>
+			<div class="card">
+				<span class="note+13  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>13</span>
+			</div>
+			<div class="card">
+				<span class="note+14  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>14</span>
+			</div>
+			<div class="card">
+				<span class="note+15  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>15</span>
+			</div>
+			<div class="card">
+				<span class="note+16  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>16</span>
+			</div>
+			<div class="card">
+				<span class="note+17  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>17</span>
+			</div>
+			<div class="card">
+				<span class="note+18  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>18</span>
+			</div>
+			<div class="card">
+				<span class="note+19  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>19</span>
+			</div>
+			<div class="card">
+				<span class="note+20  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>20</span>
+			</div>
+			<div class="card">
+				<span class="note+21  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>21</span>
+			</div>
+			<div class="card">
+				<span class="note+22  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>22</span>
+			</div>
+			<div class="card">
+				<span class="note+23  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>23</span>
+			</div>
+			<div class="card">
+				<span class="note+24  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>24</span>
+			</div>
+			<div class="card">
+				<span class="note+25  js-font-size">Aa</span><br>
+				<span class="js-font-size-result"></span><br>
+				<span>25</span>
+			</div>
 		</div>
 	</section>
 

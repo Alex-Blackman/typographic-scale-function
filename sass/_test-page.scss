@@ -1,0 +1,27 @@
+// test Page
+//
+// Styles for the test page
+
+td {
+	vertical-align: baseline;
+}
+
+.u-text-right {
+	text-align: right;
+}
+
+.js-font-size,
+.js-font-size-result {
+	margin-right: 5px;
+}
+
+.bg-light {
+	background-color: #fafafa;
+	padding: note(0);
+}
+
+.card {
+	text-align: center;
+	padding: ms(0);
+	border: note(-5) solid white;
+}
