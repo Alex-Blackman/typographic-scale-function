@@ -523,52 +523,26 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11305,
+				"buffer_size": 17596,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/_scale.scss",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 933,
+				"buffer_size": 1423,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "README.md"
 			}
 		},
 		{
-			"file": "sass/_shorthand.scss",
+			"file": "sass/_convert-to-rem.scss",
 			"settings":
 			{
-				"buffer_size": 176,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_mixin.scss",
-			"settings":
-			{
-				"buffer_size": 194,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_power.scss",
-			"settings":
-			{
-				"buffer_size": 1401,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_variable.scss",
-			"settings":
-			{
-				"buffer_size": 371,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -577,16 +551,34 @@
 			"file": "sass/stylesheet.scss",
 			"settings":
 			{
-				"buffer_size": 217,
+				"buffer_size": 302,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/_font-size-mixin.scss",
+			"file": "sass/_function.scss",
 			"settings":
 			{
-				"buffer_size": 1283,
+				"buffer_size": 236,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_variable.scss",
+			"settings":
+			{
+				"buffer_size": 398,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Projects/Typographic Scale Generator/Research/Notes on my tool.md",
+			"settings":
+			{
+				"buffer_size": 470,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -670,6 +662,13 @@
 	},
 	"file_history":
 	[
+		"/C/MAMP/htdocs/sass-type-scale/sass/_power.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/_scale.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/_mixin.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/_font-size-function.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/stylesheet.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/_test-page.scss",
+		"/C/MAMP/htdocs/sass-type-scale/sass/_font-size-mixin.scss",
 		"/C/MAMP/htdocs/sass-type-scale/css/stylesheet.css",
 		"/C/Users/Alex/Documents/Blue House Design/Blog/Blog posts.md",
 		"/C/Users/Alex/Documents/Blue House Design/Blog/Drafts/Domain registration, hosting and email.md",
@@ -790,18 +789,11 @@
 		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Projects/Website/To do list.md",
 		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Payment Schedule.md",
 		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Life/Wish List - Alex.md",
-		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Life/2017 Planning.md",
-		"/C/MAMP/htdocs/wedding/.htaccess",
-		"/C/MAMP/htdocs/alexander-blackman/.htaccess",
-		"/C/MAMP/htdocs/alexander-blackman/perch/templates/blog/post.html",
-		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Website/Performance.md",
-		"/C/MAMP/htdocs/wedding/wedding-breakfast.html",
-		"/C/MAMP/htdocs/wedding/index.html",
-		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Wedding/Venue/Chair Covers.md"
+		"/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Life/2017 Planning.md"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -815,6 +807,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"style=\"text-align: center; padding: 0 10px; border: 5px solid white;\"",
+			"border: 2px solid white;",
+			"<div style=\"text-align: center; padding: 0 10px;\">",
+			"js-font-size\">a</span><br>",
+			"<span class=\"js-font-size-result\"></span>",
+			"style=\"text-align: center;\"",
+			"end",
+			"<div style=\"text-align: center;\">",
+			"text-center",
+			"a</span>",
+			">a</span>",
 			"note+",
 			"note-",
 			"noteplus",
@@ -931,18 +934,7 @@
 			"html",
 			"div",
 			"runat=\"server\"",
-			"<asp:",
-			"import",
-			"c-subheader",
-			"u-rule-top",
-			"c-list__item",
-			"<li>",
-			"c-list-unstyled",
-			"<li>",
-			"c-subhead",
-			"u-rule-top",
-			"subheader",
-			"c-subheader"
+			"<asp:"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -960,7 +952,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -969,23 +961,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11305,
+						"buffer_size": 17596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8232,
-								8232
+								2315,
+								2315
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 763,
-								"count": 260,
+								"changes": 395,
+								"count": 303,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -994,141 +986,75 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7290.0,
+						"translation.y": 945.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/_scale.scss",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 933,
+						"buffer_size": 1423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								211,
-								211
-							],
-							[
-								247,
-								247
-							],
-							[
-								283,
-								283
-							],
-							[
-								334,
-								334
-							],
-							[
-								370,
-								370
-							],
-							[
-								406,
-								406
-							],
-							[
-								442,
-								442
-							],
-							[
-								478,
-								478
-							],
-							[
-								531,
-								531
-							],
-							[
-								569,
-								569
-							],
-							[
-								607,
-								607
-							],
-							[
-								645,
-								645
-							],
-							[
-								683,
-								683
-							],
-							[
-								736,
-								736
-							],
-							[
-								774,
-								774
-							],
-							[
-								812,
-								812
-							],
-							[
-								850,
-								850
-							],
-							[
-								888,
-								888
+								349,
+								349
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 1064,
-								"count": 63,
+								"changes": 0,
+								"count": 204,
 								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"auto_name": "README.md",
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"target": "browser"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2182.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "sass/_shorthand.scss",
+					"file": "sass/_convert-to-rem.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 176,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								221,
+								221
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 152,
-								"count": 19,
+								"changes": 212,
+								"count": 26,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -1146,141 +1072,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sass/_mixin.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5,
-								5
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 26,
-								"count": 17,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/_power.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 132,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/_variable.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 294,
-								"count": 33,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "sass/stylesheet.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 217,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								107,
+								107
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 43,
-								"count": 23,
+								"changes": 50,
+								"count": 33,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -1297,28 +1109,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "sass/_font-size-mixin.scss",
+					"buffer": 4,
+					"file": "sass/_function.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1125,
-								1125
+								207,
+								207
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 71,
-								"count": 109,
+								"changes": 25,
+								"count": 21,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -1328,10 +1140,91 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1665.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/_variable.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 24,
+								"count": 36,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"color_scheme": "Packages/User/Color Highlighter/themes/Espresso Soda.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/C/Users/Alex/iCloudDrive/27N4MQEA55~pro~writer/Projects/Typographic Scale Generator/Research/Notes on my tool.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 487,
+								"count": 88,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1339,7 +1232,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -1354,11 +1247,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1380,7 +1280,7 @@
 	"project": "sass-type-scale.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":

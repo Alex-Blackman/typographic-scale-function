@@ -43,6 +43,29 @@
 			<span style="font-size: 167px;">a</span>
 			<span style="font-size: 192px; color: red;">a</span>
 		</div>
+		<h2>Modular Scale Comparison</h2>
+		<p>12px at 5:6 Minor third === 1.2</p>
+		<div class="bg-light">
+			<span style="font-size: 8.33px;">a</span>
+			<span style="font-size: 10px;">a</span>
+			<span style="font-size: 12px; color: red;">a</span>
+			<span style="font-size: 14.4px;">a</span>
+			<span style="font-size: 17.28px;">a</span>
+			<span style="font-size: 20.736px;">a</span>
+			<span style="font-size: 24.883px; color: red;">a</span>
+			<span style="font-size: 29.86px;">a</span>
+			<span style="font-size: 35.832px;">a</span>
+			<span style="font-size: 42.998px;">a</span>
+			<span style="font-size: 51.598px; color: red;">a</span>
+			<span style="font-size: 61.917px;">a</span>
+			<span style="font-size: 74.301px;">a</span>
+			<span style="font-size: 89.161px;">a</span>
+			<span style="font-size: 106.993px; color: red;">a</span>
+			<span style="font-size: 128.392px;">a</span>
+			<span style="font-size: 154.07px;">a</span>
+			<span style="font-size: 184.884px;">a</span>
+			<span style="font-size: 221.861px; color: red;">a</span>
+		</div>
 		<div>
 			<table>
 				<thead>
@@ -239,7 +262,7 @@
 	-->
 
 		<h2>Generic Note Class and Functions</h2>
-		<div class="bg-light">
+		<!--<div class="bg-light">
 			<span class="note-5  js-font-size">a</span>
 			<span class="note-4  js-font-size">a</span>
 			<span class="note-3  js-font-size">a</span>
@@ -272,6 +295,7 @@
 			<span class="note+24  js-font-size">a</span>
 			<span class="note+25  js-font-size">a</span>
 		</div>
+	-->
 
 		<!--
 		<div>
@@ -483,6 +507,7 @@
 
 	for (i = 0; i < elem.length; ++i) {
 		var theCSSprop = window.getComputedStyle(elem[i],null).getPropertyValue("font-size");
+		console.log(theCSSprop);
 		result[i].innerHTML = theCSSprop;
 	}
 

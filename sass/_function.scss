@@ -10,5 +10,6 @@ f~n = f0 * (2 ^ 1/5) ^ n
 */
 
 @function pentatonic-scale($note, $base-font-size){
-  @return round($base-font-size * pow(pow($ratio, $scale), $note));
+	$pxSize: round($base-font-size * pow(pow($ratio, $scale), $note));
+	@return px-to-rem($pxSize);
 }

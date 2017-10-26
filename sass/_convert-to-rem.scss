@@ -1,0 +1,9 @@
+// Convert to REM
+//
+// Passing in a font-size other than px has unintended results
+// http://www.stubbornella.org/content/2013/07/01/easy-peasy-rem-conversion-with-sass/
+
+@function px-to-rem($note){
+	$remSize: $note / 16px;
+	@return #{$remSize}rem;
+}

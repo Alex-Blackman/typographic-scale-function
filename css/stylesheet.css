@@ -98,177 +98,177 @@ f~n = f0 * (2 ^ 1/5) ^ n
   color: red; }
 
 .font-size-minus-2 {
-  font-size: 9px; }
+  font-size: 0.5625rem; }
 
 .font-size-minus-1 {
-  font-size: 10px; }
+  font-size: 0.625rem; }
 
 .font-size-zero {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: red; }
 
 .font-size-plus-1 {
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .font-size-plus-2 {
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .font-size-plus-3 {
-  font-size: 18px; }
+  font-size: 1.125rem; }
 
 .font-size-plus-4 {
-  font-size: 21px; }
+  font-size: 1.3125rem; }
 
 .font-size-plus-5 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: red; }
 
 .font-size-plus-6 {
-  font-size: 28px; }
+  font-size: 1.75rem; }
 
 .font-size-plus-7 {
-  font-size: 32px; }
+  font-size: 2rem; }
 
 .font-size-plus-8 {
-  font-size: 36px; }
+  font-size: 2.25rem; }
 
 .font-size-plus-9 {
-  font-size: 42px; }
+  font-size: 2.625rem; }
 
 .font-size-plus-10 {
-  font-size: 48px;
+  font-size: 3rem;
   color: red; }
 
 .font-size-plus-11 {
-  font-size: 55px; }
+  font-size: 3.4375rem; }
 
 .font-size-plus-12 {
-  font-size: 63px; }
+  font-size: 3.9375rem; }
 
 .font-size-plus-13 {
-  font-size: 73px; }
+  font-size: 4.5625rem; }
 
 .font-size-plus-14 {
-  font-size: 84px; }
+  font-size: 5.25rem; }
 
 .font-size-plus-15 {
-  font-size: 96px;
+  font-size: 6rem;
   color: red; }
 
 .font-size-plus-16 {
-  font-size: 110px; }
+  font-size: 6.875rem; }
 
 .font-size-plus-17 {
-  font-size: 127px; }
+  font-size: 7.9375rem; }
 
 .font-size-plus-18 {
-  font-size: 146px; }
+  font-size: 9.125rem; }
 
 .font-size-plus-19 {
-  font-size: 167px; }
+  font-size: 10.4375rem; }
 
 .font-size-plus-20 {
-  font-size: 192px;
+  font-size: 12rem;
   color: red; }
 
 .note-5 {
-  font-size: 6px;
+  font-size: 0.375rem;
   color: red; }
 
 .note-4 {
-  font-size: 7px; }
+  font-size: 0.4375rem; }
 
 .note-3 {
-  font-size: 8px; }
+  font-size: 0.5rem; }
 
 .note-2 {
-  font-size: 9px; }
+  font-size: 0.5625rem; }
 
 .note-1 {
-  font-size: 10px; }
+  font-size: 0.625rem; }
 
 .note\+0 {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: red; }
 
 .note\+1 {
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .note\+2 {
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .note\+3 {
-  font-size: 18px; }
+  font-size: 1.125rem; }
 
 .note\+4 {
-  font-size: 21px; }
+  font-size: 1.3125rem; }
 
 .note\+5 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: red; }
 
 .note\+6 {
-  font-size: 28px; }
+  font-size: 1.75rem; }
 
 .note\+7 {
-  font-size: 32px; }
+  font-size: 2rem; }
 
 .note\+8 {
-  font-size: 36px; }
+  font-size: 2.25rem; }
 
 .note\+9 {
-  font-size: 42px; }
+  font-size: 2.625rem; }
 
 .note\+10 {
-  font-size: 48px;
+  font-size: 3rem;
   color: red; }
 
 .note\+11 {
-  font-size: 55px; }
+  font-size: 3.4375rem; }
 
 .note\+12 {
-  font-size: 63px; }
+  font-size: 3.9375rem; }
 
 .note\+13 {
-  font-size: 73px; }
+  font-size: 4.5625rem; }
 
 .note\+14 {
-  font-size: 84px; }
+  font-size: 5.25rem; }
 
 .note\+15 {
-  font-size: 96px;
+  font-size: 6rem;
   color: red; }
 
 .note\+16 {
-  font-size: 110px; }
+  font-size: 6.875rem; }
 
 .note\+17 {
-  font-size: 127px; }
+  font-size: 7.9375rem; }
 
 .note\+18 {
-  font-size: 146px; }
+  font-size: 9.125rem; }
 
 .note\+19 {
-  font-size: 167px; }
+  font-size: 10.4375rem; }
 
 .note\+20 {
-  font-size: 192px;
+  font-size: 12rem;
   color: red; }
 
 .note\+21 {
-  font-size: 221px; }
+  font-size: 13.8125rem; }
 
 .note\+22 {
-  font-size: 253px; }
+  font-size: 15.8125rem; }
 
 .note\+23 {
-  font-size: 291px; }
+  font-size: 18.1875rem; }
 
 .note\+24 {
-  font-size: 334px; }
+  font-size: 20.875rem; }
 
 .note\+25 {
-  font-size: 384px;
+  font-size: 24rem;
   color: red; }
 
 td {
@@ -283,11 +283,11 @@ td {
 
 .bg-light {
   background-color: #fafafa;
-  padding: 12px; }
+  padding: 0.75rem; }
 
 .card {
   text-align: center;
-  padding: 12px;
-  border: 6px solid white; }
+  padding: 0.75rem;
+  border: 0.375rem solid white; }
 
 /*# sourceMappingURL=stylesheet.css.map */

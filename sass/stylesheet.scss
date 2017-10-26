@@ -4,9 +4,10 @@
 // Setting
 @import "_variable";
 @import "_mixin";
-@import "_function";
+@import "_function"; // the modular scale
 @import "_power";
 @import "_shorthand";
+@import "_convert-to-rem";
 
 // Component
 @import "_font-size-mixin";
