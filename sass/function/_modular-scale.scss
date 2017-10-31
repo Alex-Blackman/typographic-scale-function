@@ -2,14 +2,19 @@
 
 /*
 
-Pentatonic Scale
+$note = $base-font-size * ($ratio ^ ($note/$scale))
+
+e.g. a pentatonic scale
 
 f~n = f0 * (2 ^ n/5)
+
+or
+
 f~n = f0 * (2 ^ 1/5) ^ n
 
 */
 
-@function pentatonic-scale($note, $base-font-size){
+@function modular-scale($note, $base-font-size){
 	$pxSize: round($base-font-size * pow(pow($ratio, $scale), $note));
 	@return px-to-rem($pxSize);
 }

@@ -3,9 +3,9 @@
 // Convert readable function name into shorthand note() or ms() for use in projects
 
 @function note($note){
-  @return pentatonic-scale($note, $base-font-size);
+  @return modular-scale($note, $base-font-size);
 }
 
 @function ms($note){
-  @return pentatonic-scale($note, $base-font-size);
+  @return modular-scale($note, $base-font-size);
 }
