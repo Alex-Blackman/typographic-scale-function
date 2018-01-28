@@ -1,6 +1,6 @@
 # README.md
 
-# SASS Typograhpic Scale Generator
+# Typograhpic Scale Function
 
 A bunch of SASS functions to generate a typographic scale using the pentatonic scale - classic typographic scale.
 
@@ -12,10 +12,7 @@ I also created a testing page so that you can see the scale and written some JS 
 
 ## Status
 
-[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com/)
-
 ## Installation
-
 
 ### Manually
 
